@@ -1,0 +1,35 @@
+PODS:
+  - auropay-payments (1.1.0)
+  - auropay_payments (0.0.1):
+    - auropay-payments (= 1.1.0)
+    - Flutter
+  - Flutter (1.0.0)
+  - integration_test (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - auropay_payments (from `.symlinks/plugins/auropay_payments/ios`)
+  - Flutter (from `Flutter`)
+  - integration_test (from `.symlinks/plugins/integration_test/ios`)
+
+SPEC REPOS:
+  trunk:
+    - auropay-payments
+
+EXTERNAL SOURCES:
+  auropay_payments:
+    :path: ".symlinks/plugins/auropay_payments/ios"
+  Flutter:
+    :path: Flutter
+  integration_test:
+    :path: ".symlinks/plugins/integration_test/ios"
+
+SPEC CHECKSUMS:
+  auropay-payments: 53f82739fa3c9808c65842c2336a58750153a9ce
+  auropay_payments: 8ff9c3bf71efe20caa00d4bd4f4ddb88a995ed45
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  integration_test: 13825b8a9334a850581300559b8839134b124670
+
+PODFILE CHECKSUM: 70d9d25280d0dd177a5f637cdb0f0b0b12c6a189
+
+COCOAPODS: 1.12.1
