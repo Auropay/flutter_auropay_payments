@@ -10,21 +10,23 @@ class MockAuropayPaymentsPlatform
     with MockPlatformInterfaceMixin
     implements AuropayPaymentsPlatform {
   @override
-  Future<Map?> doPayment({
-    required AuropayBuilder builder,
-    required double amount,
-    String? orderId}) => Future.value({
-    'type': 'success',
-    'data': {
-      'transactionStatus': 2,
-      'orderId': 'j8u7ygt65r',
-      'transactionId': '2w3es4rd6tf7yu8i'
-    }
-  });
+  Future<Map?> doPayment(
+          {required AuropayBuilder builder,
+          required double amount,
+          String? orderId}) =>
+      Future.value({
+        'type': 'success',
+        'data': {
+          'transactionStatus': 2,
+          'orderId': 'j8u7ygt65r',
+          'transactionId': '2w3es4rd6tf7yu8i'
+        }
+      });
 }
 
 void main() {
-  final AuropayPaymentsPlatform initialPlatform = AuropayPaymentsPlatform.instance;
+  final AuropayPaymentsPlatform initialPlatform =
+      AuropayPaymentsPlatform.instance;
 
   test('$MethodChannelAuropayPayments is the default instance', () {
     expect(initialPlatform, isInstanceOf<MethodChannelAuropayPayments>());
