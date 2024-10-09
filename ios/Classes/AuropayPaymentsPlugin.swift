@@ -25,7 +25,7 @@ public class AuropayPaymentsPlugin: NSObject, FlutterPlugin {
                              var builder: AuroPayBuilder?
 
                              if let args = call.arguments as? [String:Any]{
-                                 let merchantId = args["subDomainId"] as! String
+                                 let subDomainId = args["subDomainId"] as! String
                                  let accessKey = args["accessKey"] as! String
                                  let secretKey = args["secretKey"] as! String
 
@@ -38,7 +38,7 @@ public class AuropayPaymentsPlugin: NSObject, FlutterPlugin {
                                  if let customer = args["customerProfile"] as? [String:Any]{
 
                                      builder = AuroPayBuilder()
-                                         .merchantID(merchantId)
+                                         .subDomainId(subDomainId)
                                          .accessKey(accessKey)
                                          .secretKey(secretKey)
                                          .customerProfile(getCustomerProfile(customer: customer))

@@ -13,6 +13,7 @@ class SimpleApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
+          useMaterial3: false,
           colorScheme: ColorScheme.fromSwatch().copyWith(primary: Colors.blue)),
       home: const SimpleView(),
     );
@@ -252,8 +253,7 @@ class _SimpleViewState extends State<SimpleView> {
   }
 
   InputDecoration decoration(String label) {
-    return InputDecoration(
-        border: const OutlineInputBorder(), label: Text(label));
+    return InputDecoration(border: const OutlineInputBorder(), label: Text(label));
   }
 }
 

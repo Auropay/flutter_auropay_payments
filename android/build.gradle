@@ -81,5 +81,5 @@ android {
 }
 
 dependencies {
-    implementation 'net.auropay:payments-android:1.2.0'
+    implementation 'net.auropay:payments-android:1.2.1'
 }

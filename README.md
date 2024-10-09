@@ -12,7 +12,7 @@ To add AuroPay Flutter plugin to your project from Pub.dev, follow the below ste
 Step-1.  Add the code given below to your project's pubspec.yaml file, if this is not already added.
 ```
 dependencies:
-  auropay_payments: ^1.0.0
+  auropay_payments: latest_version
   
 // or run in terminal
 $ flutter pub add auropay_payments
