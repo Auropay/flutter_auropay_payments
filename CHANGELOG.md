@@ -21,3 +21,7 @@
 ## 1.0.1
 
 - Enable SDK support for multiple countries.
+
+## 1.0.2
+
+- Fix the mobile number issue in android.

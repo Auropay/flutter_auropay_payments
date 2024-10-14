@@ -203,11 +203,6 @@ class _SimpleViewState extends State<SimpleView> {
                   if (value == null || value.trim().isEmpty) {
                     return 'Please enter phone number';
                   }
-                  if (value.trim().isEmpty ||
-                      value.trim().length < 10 ||
-                      value.trim().length > 13) {
-                    return 'Please enter valid phone number';
-                  }
                   return null;
                 },
               ),
