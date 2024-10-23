@@ -248,7 +248,8 @@ class _SimpleViewState extends State<SimpleView> {
   }
 
   InputDecoration decoration(String label) {
-    return InputDecoration(border: const OutlineInputBorder(), label: Text(label));
+    return InputDecoration(
+        border: const OutlineInputBorder(), label: Text(label));
   }
 }
 

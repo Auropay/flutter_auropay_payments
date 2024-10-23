@@ -25,3 +25,8 @@
 ## 1.0.2
 
 - Fix the mobile number issue in android.
+
+## 1.0.3
+
+- Added support for multiple currencies
+- Performance improved.
