@@ -30,3 +30,7 @@
 
 - Added support for multiple currencies
 - Performance improved.
+
+## 1.0.4
+
+- Removed full card number from convenience fee api.
