@@ -31,7 +31,7 @@ abstract class AuropayPaymentsPlatform extends PlatformInterface {
   Future<Map<dynamic, dynamic>?> doPayment(
       {required AuropayBuilder builder,
       required double amount,
-      String? orderId}) {
+      String? referenceNumber}) {
     throw UnimplementedError('Auropay has been not initialized.');
   }
 }

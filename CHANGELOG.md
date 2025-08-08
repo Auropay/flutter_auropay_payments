@@ -34,3 +34,7 @@
 ## 1.0.4
 
 - Removed full card number from convenience fee api.
+
+## 1.0.5
+
+- Parameter bug fix.

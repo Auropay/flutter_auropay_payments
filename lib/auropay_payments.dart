@@ -8,10 +8,10 @@ class AuropayPayments {
   Future<AuropayResponse> doPayment(
       {required AuropayBuilder builder,
       required double amount,
-      String? orderId}) async {
+      String? referenceNumber}) async {
     try {
       final response = await AuropayPaymentsPlatform.instance
-          .doPayment(builder: builder, amount: amount, orderId: orderId);
+          .doPayment(builder: builder, amount: amount, referenceNumber: referenceNumber);
       return AuropayResponse.fromJson(response!);
     } on Exception catch (e) {
       throw Exception(e);

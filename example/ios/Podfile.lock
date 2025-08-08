@@ -26,10 +26,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   auropay-payments: 0bb843534128c2f13e62551404fd1bd1ca1029cd
-  auropay_payments: fbb3c41c68ad1199441da45113a9c1f1a68d9cd7
+  auropay_payments: cab17050ff01060c8daadb4a07f71c7bb39807d3
   Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
-  integration_test: 13825b8a9334a850581300559b8839134b124670
+  integration_test: 4a889634ef21a45d28d50d622cf412dc6d9f586e
 
 PODFILE CHECKSUM: a57f30d18f102dd3ce366b1d62a55ecbef2158e5
 
-COCOAPODS: 1.15.2
+COCOAPODS: 1.16.2

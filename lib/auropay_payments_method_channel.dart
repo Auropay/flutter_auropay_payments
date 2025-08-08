@@ -14,9 +14,9 @@ class MethodChannelAuropayPayments extends AuropayPaymentsPlatform {
   Future<Map<dynamic, dynamic>?> doPayment(
       {required AuropayBuilder builder,
       required double amount,
-      String? orderId}) async {
+      String? referenceNumber}) async {
     final version = await methodChannel.invokeMethod<Map<dynamic, dynamic>>(
-        'do_payment', builder.toJson(amount, orderId: orderId));
+        'do_payment', builder.toJson(amount, referenceNumber: referenceNumber));
     return version;
   }
 }

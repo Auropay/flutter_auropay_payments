@@ -67,8 +67,9 @@ class _SimpleViewState extends State<SimpleView> {
 
     try {
       auropayResponse = await _auropay.doPayment(
-          builder: builder, amount: double.parse(amountController.text));
-      // referenceNumber: "xyz_reference"
+          builder: builder,
+          amount: double.parse(amountController.text),
+          referenceNumber: "xyz_reference");
       debugPrint("auroPay response :: ${auropayResponse.toString()}");
 
       setState(() {

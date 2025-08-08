@@ -13,7 +13,7 @@ class MockAuropayPaymentsPlatform
   Future<Map?> doPayment(
           {required AuropayBuilder builder,
           required double amount,
-          String? orderId}) =>
+          String? referenceNumber}) =>
       Future.value({
         'type': 'success',
         'data': {

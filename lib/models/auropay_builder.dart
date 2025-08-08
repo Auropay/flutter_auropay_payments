@@ -97,7 +97,7 @@ class AuropayBuilder {
     return this;
   }
 
-  Map<String, dynamic> toJson(double amount, {String? orderId}) {
+  Map<String, dynamic> toJson(double amount, {String? referenceNumber}) {
     final map = <String, dynamic>{};
     map['subDomainId'] = subDomainId;
     map['accessKey'] = accessKey;
@@ -112,8 +112,8 @@ class AuropayBuilder {
       map['theme'] = theme?.toJson();
     }
     map['detailedResponse'] = detailedResponse;
-    if (orderId != null) {
-      map['orderId'] = orderId;
+    if (referenceNumber != null) {
+      map['referenceNumber'] = referenceNumber;
     }
     map['showCustomerForm'] = showCustomerForm;
     return map;
