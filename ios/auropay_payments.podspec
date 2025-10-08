@@ -15,7 +15,7 @@ A Flutter plugin for auropay.
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
-  s.dependency 'auropay-payments', '1.1.3'
+  s.dependency 'auropay-payments', '1.2.0'
   s.xcconfig = { 'ENABLE_BITCODE' => 'NO', }
   s.platform = :ios, '13.0'
 

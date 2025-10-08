@@ -10,8 +10,8 @@ class AuropayPayments {
       required double amount,
       String? referenceNumber}) async {
     try {
-      final response = await AuropayPaymentsPlatform.instance
-          .doPayment(builder: builder, amount: amount, referenceNumber: referenceNumber);
+      final response = await AuropayPaymentsPlatform.instance.doPayment(
+          builder: builder, amount: amount, referenceNumber: referenceNumber);
       return AuropayResponse.fromJson(response!);
     } on Exception catch (e) {
       throw Exception(e);

@@ -38,3 +38,8 @@
 ## 1.0.5
 
 - Parameter bug fix.
+
+## 1.1.0
+
+- Update error handling of transaction.
+- Performance improvements and bug fixes.
