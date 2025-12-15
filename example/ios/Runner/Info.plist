@@ -43,5 +43,13 @@
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
+    <key>NSCameraUsageDescription</key>
+    <string>Needs access to your camera to scan your card.</string>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+        <string>phonepe</string>
+        <string>tez</string>
+        <string>paytmmp</string>
+    </array>
 </dict>
 </plist>

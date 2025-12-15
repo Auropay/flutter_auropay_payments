@@ -43,3 +43,7 @@
 
 - Update error handling of transaction.
 - Performance improvements and bug fixes.
+
+## 1.1.2
+
+- Add UPI intent support.
