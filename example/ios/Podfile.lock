@@ -1,7 +1,7 @@
 PODS:
-  - auropay-payments (1.2.4)
+  - auropay-payments (1.2.5)
   - auropay_payments (0.0.1):
-    - auropay-payments (= 1.2.4)
+    - auropay-payments (= 1.2.5)
     - Flutter
   - Flutter (1.0.0)
   - integration_test (0.0.1):
@@ -25,8 +25,8 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/integration_test/ios"
 
 SPEC CHECKSUMS:
-  auropay-payments: a4bea77aea4c47911492046f326cbc5fedb6578f
-  auropay_payments: 13310a5cfa177a3a73ceb3d91dcd1b825654ef4d
+  auropay-payments: ea4a4f7ab027fbe8e2d820dd20d5e91d668231a0
+  auropay_payments: 836fbd1583968cd6ec9e6f308bc0635475c7de72
   Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
   integration_test: 4a889634ef21a45d28d50d622cf412dc6d9f586e
 
