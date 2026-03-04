@@ -60,3 +60,8 @@
 
 - Add custom OTP flow
 - Performance improvement and bug fixes.
+
+## 1.3.1
+
+- Add CRED UPI app support
+- Performance improvement and bug fixes.
